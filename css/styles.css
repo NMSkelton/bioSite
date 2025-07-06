@@ -1,0 +1,112 @@
+/*
+Student Name: Nicholas Skelton
+File Name: about.html
+Date: June 21st, 2025
+*/
+
+/* CSS Reset */
+
+body, header, nav, main, footer, img, h1, h3, ul {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+/* Style rules for header */
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* Style rules for nav */
+
+nav {
+  background-color:#fccad4;
+  border-bottom: white solid 7px;
+}
+
+nav ul {
+  list-style-type: none;
+  text-align: center;
+}
+
+nav li {
+  display: inline-block;
+  font-size: 3em;
+  font-family: "Emilys Candy", serif;
+  padding: 0 2em 1.5% 2em;
+}
+
+nav li a {
+  text-decoration: none;
+  color: #f06280;
+}
+
+/* Style rules for main content */
+
+main {
+  font-family: "Nanum Myeongjo", serif;
+  font-size: 1.2em;
+  background-color: #fccad4;
+  display: inline-block;
+  padding: 1em 0em;
+  font-weight: 800;
+}
+
+main p {
+  text-align: center;
+}
+
+main img {
+  text-align: center;
+}
+
+.goat, .canyon, #about {
+  float: left;
+  width: 29%;
+  margin: auto 2%;
+}
+
+.bevel {
+  border-radius: 20%;
+}
+
+/* Styles rules for footer */
+
+footer {
+  text-align: center;
+  clear: left;
+  background-color: #fccad4;
+  border-top: white 5px solid;
+}
+
+footer p {
+  padding-bottom: 1%;
+  font-family: "Nanum Myeongjo", serif;
+  font-weight: bold;
+}
+
+footer img {
+  display: inline-block;
+  height: 1.8em;
+  width: 1.8em;
+  padding: 1em 1em .2em 1em;
+}
+
+@media screen and (min-width: 1921px) {
+
+  body {
+    background: linear-gradient(#fccad4, #f06280);
+  }
+
+  #wrapper {
+    width: 1920px;
+    margin: 0 auto;
+  }
+
+  main {
+    background-color: #fccad4;
+  }
+
+}
