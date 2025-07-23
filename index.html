@@ -2,7 +2,7 @@
 
 <!--
 Student Name: Nicholas Skelton
-File Name: template.html
+File Name: index.html
 Date: July 3rd, 2025
 -->
 
@@ -15,11 +15,17 @@ Date: July 3rd, 2025
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Emilys+Candy&family=Nanum+Myeongjo&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon.png">
 </head>
 <body>
   <div id="wrapper">
     <header>
-      <a href="index.html"><img src="images/skyline.jpg" alt="pink NYC skyline"></a>
+      <div class="tab-desk">
+        <a href="index.html"><img src="images/skyline.jpg" alt="pink NYC skyline"></a>
+      </div>
+      <div class="mobile">
+        <a href="index.html"><img src="images/mobile-header.jpg" alt="pink NYC skyline"></a>
+      </div>
     </header>
 
 
@@ -32,13 +38,21 @@ Date: July 3rd, 2025
     </nav>
 
     <main>
-      <img class="goat bevel" src="images/goat.jpg" alt="Mariel holding a goat">
-      <div id="about">
-        <p>A graduate of Florida Gulf Coast Universities communications program, Mariel began her career with Abercrombie and Fitch’s in the Manager-in-Training role. A clear standout among her peers, she quickly turned that entry level management position into a promising occupation. Within a year, she would be promoted to Assistant Manager position, and subsequently moved by the company to Houston’s Galleria mall - one of the largest malls in the United States. Again, she was a standout and eventually took the next step to Store Manager, with another promotion to Austin, TX. Since then, she has led and turned multiple stores around in the Houston and Austin markets, the latter of which she now resides at as a General Manager. Leading one of the largest stores in the company, Mariel also has the responsibility of overseeing the entire Austin area's stores.</p>
-        <p>Beyond her goals of becoming a District, and then perhaps Regional Manager, with Abercrombie, Mariel dreams to one day open and run an animal sanctuary.  Mariel has a deep love for all furry things, especially those that have been orphaned or injured. For her, no  accomplishment compares to turning an animal’s life around, and giving it the love and care she believes they all deserve.</p>
-        <p>Upon clocking out for good, Mariel dreams of retiring back to her home state of Florida, with a summer place in the New York City area - a snowbird as they’re colloquially known as. And between bouncing between the City and white sand beaches, she wishes to travel the world, with the ultimate goal of setting foot onto every continent of this planet.</p>
+      <div id="index-top">
+        <img class="garden bevel" src="images/garden.jpg" alt="Mariel in a garden">
+        <div id="text-area">
+          <h1>A bit about Mariel's past...</h1>
+          <p class="top-text">A graduate of Florida Gulf Coast Universities communications program, Mariel began her career with Abercrombie and Fitch in the Manager-in-Training role. A clear standout among her peers, she quickly turned that entry level management position into a promising occupation. Within a year, she would be promoted to Assistant Manager position, and subsequently moved by the company to Houston’s Galleria mall - one of the largest malls in the United States. Again, she was a standout and eventually took the next step to Store Manager, with another promotion to Austin, TX. Since then, she has led and turned multiple stores around in the Houston and Austin markets, the latter of which she now resides at as a General Manager. Leading one of the largest stores in the company, Mariel also has the responsibility of overseeing the entire Austin area's stores.</p>
+        </div>
       </div>
-      <img class="canyon bevel" src="images/grand-canyon.jpg" alt="Mariel at the Grand Canyon">
+      <div id="index-bot">
+        <div id="text-area">
+          <h1>...and a little about her future</h1>
+          <p class="bot-text">Beyond her goals of becoming a District Manager, and then perhaps Regional Manager, with Abercrombie, Mariel dreams to one day open and run an animal sanctuary.  Mariel has a deep love for all furry things, especially those that have been orphaned or injured. For her, no  accomplishment compares to turning an animal’s life around, and giving it the love and care she believes they all deserve.</p>
+          <p class="bot-text">Upon clocking out for good, Mariel dreams of retiring back to her home state of Florida, with a summer place in the New York City area - a snowbird as they’re colloquially known as. And between bouncing between the City and white sand beaches, she wishes to travel the world, with the ultimate goal of setting foot onto every continent of this planet.</p>
+        </div>
+        <img class="bugz bevel" src="images/with_bugz.jpg" alt="Mariel holding Bugz the cat">
+      </div>
     </main>
 
     <footer>
