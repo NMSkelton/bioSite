@@ -329,6 +329,10 @@ footer img {
     margin: 2em 3em;
   }
 
+  footer img:hover {
+    transform: scale(1.5);
+  }
+
 }
 
 /* Medie Query for Large Desktops */
